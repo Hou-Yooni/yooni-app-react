@@ -25,10 +25,11 @@ module.exports = {
   ],
   rules: {
     'react/jsx-uses-vars': 'error',
-    'no-unused-vars': ['error', { vars: 'all', args: 'after-used', ignoreRestSiblings: false }],
+    // 'no-unused-vars': ['error', { vars: 'all', args: 'after-used', ignoreRestSiblings: false }], //檢核沒有使用的變數 沒有使用的變數會被警告
     'prettier/prettier': ['error', {}, { usePrettierrc: true }],
     'react/jsx-uses-react': 'off',
     'react/react-in-jsx-scope': 'off',
-    'react/prop-types': 'off'
+    'react/prop-types': 'off',
+    'no-unused-vars': 0 //不核沒有使用的變數 沒有使用的變數不會被警告
   }
 }
