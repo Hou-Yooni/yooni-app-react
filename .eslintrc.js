@@ -30,6 +30,7 @@ module.exports = {
     'react/jsx-uses-react': 'off',
     'react/react-in-jsx-scope': 'off',
     'react/prop-types': 'off',
+    'react/display-name': 'off',
     'no-unused-vars': 0 //不核沒有使用的變數 沒有使用的變數不會被警告
   }
 }
